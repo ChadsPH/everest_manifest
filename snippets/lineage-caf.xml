@@ -3,6 +3,7 @@
   <!-- Device repos -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lineage" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr" revision="lineage-21.0-legacy-um" remote="lineage" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="SM6225-AD/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" revision="lineage-21.0-caf-sm8450" remote="lineage" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" revision="lineage-21.0-caf-sm8550" remote="lineage" />
 
@@ -33,9 +34,18 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-21.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-21.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-21.0-caf-sdm845" remote="lineage" />
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="SM6225-AD/vendor_qcom_opensource_agm" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="SM6225-AD/vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="SM6225-AD/hardware_qcom_audio-ar" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="SM6225-AD/vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="SM6225-AD/vendor_qcom_opensource_dataipa" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/display" name="SM6225-AD/hardware_qcom_display" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/media" name="SM6225-AD/hardware_qcom_media" remote="github" revision="lineage-21" />
+  <!--
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-21.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-21.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-21.0-caf-sm8150" remote="lineage" />
+  -->
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="lineage-21.0-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-21.0-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="lineage-21.0-caf-sm8250" remote="lineage" />
